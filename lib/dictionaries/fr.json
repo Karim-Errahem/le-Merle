@@ -1,0 +1,806 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À propos",
+    "contact": "Contact",
+    "info": "Informations",
+    "blog": "Blog",
+    "reviews": "Avis"
+  
+  },
+  "home": {
+    "title": "Le Merle Assistance Médicale",
+    "subtitle": "Services de santé professionnels avec une touche humaine",
+    "cta": "Contactez-nous"
+  },
+  "whyChooseUs": {
+    "title": "Pourquoi choisir Le Merle Assistance Médicale ?",
+    "description": "Chez Le Merle Assistance Médicale, nous croyons que les soins de santé ne sont pas seulement un traitement, mais des soins, un soutien et un accompagnement sincère à chaque étape.",
+    "benefits": [
+      "Temps de réponse rapide",
+      "Services médicaux sur site et à distance",
+      "Solutions de financement de traitement",
+      "Soutien psychologique et familial continu",
+      "Couverture complète pour divers besoins de santé"
+    ],
+    "conclusion": "Choisissez le confort, la sécurité et le soutien complet... Choisissez Le Merle Assistance Médicale."
+  },
+  "vision": {
+    "visionTitle": "Notre Vision",
+    "visionText": "Être le premier partenaire de confiance pour les soins à domicile et médicaux en Tunisie, en fournissant des services intégrés, humains et innovants qui mettent le confort du patient au premier plan.",
+    "missionTitle": "Notre Mission",
+    "missionText": "Nous fournissons des services médicaux spécialisés et un soutien sanitaire, avec un engagement envers les normes les plus élevées de qualité et d'humanité, pour faciliter la vie de nos patients et de leurs familles, et les accompagner dans tous les détails de leur parcours de santé.",
+    "valuesTitle": "Nos Valeurs",
+    "values": [
+      {
+        "title": "Compassion",
+        "description": "Nous plaçons les sentiments du patient et de sa famille au cœur de chaque service que nous fournissons."
+      },
+      {
+        "title": "Professionnalisme",
+        "description": "Nous nous engageons à la précision, à l'efficacité et à la confidentialité médicale."
+      },
+      {
+        "title": "Innovation",
+        "description": "Nous adoptons la technologie moderne pour faciliter l'accès aux soins de santé."
+      },
+      {
+        "title": "Dévouement",
+        "description": "Nous accompagnons nos patients avec un dévouement total, un soutien et une attention continus."
+      },
+      {
+        "title": "Transparence",
+        "description": "Nous construisons nos relations avec les patients et les partenaires sur la confiance et la clarté totale."
+      }
+    ]
+  },
+  "services": {
+    "title": "Nos Services",
+    "services": [
+      {
+        "title": "Visites à domicile",
+        "description": "Nous vous proposons un service de visites à domicile par notre équipe médicale spécialisée, où que vous soyez. Que vous ayez besoin de suivre une condition de santé, de fournir un traitement, des soins post-opératoires, ou même de surveiller des maladies chroniques, nous venons à vous avec tout l'équipement médical nécessaire pour assurer votre confort et votre sécurité à domicile.",
+        "image": "/Visites à domicile.jpg",
+        "features": [
+          "Équipe médicale qualifiée disponible 24/7",
+          "Équipement médical complet",
+          "Suivi personnalisé des traitements",
+          "Coordination avec les médecins traitants",
+          "Rapports détaillés après chaque visite"
+        ]
+      },
+      {
+        "title": "Consultations médicales",
+        "description": "Grâce à notre réseau de médecins généralistes, vous pouvez facilement obtenir une consultation médicale : à distance via un appel vidéo ou téléphonique, pour gagner du temps et réduire les tracas de déplacement, ou en personne dans nos centres ou à domicile en cas de besoin, en garantissant les plus hauts niveaux de qualité médicale.",
+        "image": "/Consultations.jpg",
+        "features": [
+          "Consultations vidéo avec des spécialistes",
+          "Rendez-vous disponibles sous 24h",
+          "Dossier médical électronique sécurisé",
+          "Suivi post-consultation",
+          "Ordonnances électroniques"
+        ]
+      },
+      {
+        "title": "Accompagnement du patient",
+        "description": "Pas besoin de vous inquiéter pour vos déplacements. Nous vous proposons un service d'accompagnement personnel aux hôpitaux et cliniques, comprenant : l'organisation d'un transport sécurisé, le soutien administratif lors de l'enregistrement médical, et la présence de l'accompagnateur avec le patient pendant les examens ou les rendez-vous médicaux.",
+        "image": "/Accompagnement.jpg",
+        "features": [
+          "Transport médicalisé confortable",
+          "Assistance administrative complète",
+          "Accompagnement pendant les consultations",
+          "Traduction médicale si nécessaire",
+          "Coordination des rendez-vous multiples"
+        ]
+      },
+      {
+        "title": "Gestion des rendez-vous",
+        "description": "Nous gérons professionnellement tous vos rendez-vous médicaux. De la réservation des consultations à la coordination des rendez-vous d'examen et d'opération : rappels de rendez-vous, sélection des médecins et centres les plus adaptés selon le cas, et gestion précise du temps pour éviter les longues attentes.",
+        "image": "/rendez-vous.jpg",
+        "features": [
+          "Planification optimisée des rendez-vous",
+          "Rappels automatiques par SMS et email",
+          "Sélection des meilleurs spécialistes",
+          "Gestion des annulations et reports",
+          "Suivi du calendrier médical complet"
+        ]
+      },
+      {
+        "title": "Financement des opérations chirurgicales",
+        "description": "Parce que la santé n'attend pas, nous vous aidons à financer les coûts des opérations chirurgicales grâce à des solutions flexibles et rapides, comprenant : des plans de paiement adaptés à vos capacités, des partenariats avec des institutions de financement de santé accréditées, et des conseils et accompagnement dans toutes les étapes du financement du traitement jusqu'à la guérison complète.",
+        "image": "/chirurgicales.jpg",
+        "features": [
+          "Plans de paiement personnalisés",
+          "Partenariats avec des institutions financières",
+          "Traitement rapide des demandes",
+          "Conseils financiers spécialisés",
+          "Suivi transparent des paiements"
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Nos Tarifs",
+    "subtitle": "Des solutions adaptées à tous les budgets et besoins",
+    "pricingToggle": {
+      "monthly": "Mensuel",
+      "yearly": "Annuel"
+    },
+    "plans": [
+      {
+        "name": "Essentiel",
+        "description": "Pour les besoins médicaux de base",
+        "price": {
+          "monthly": "49 DT",
+          "yearly": "529 DT"
+        },
+        "features": [
+          "Consultations médicales à distance",
+          "Gestion des rendez-vous de base",
+          "Assistance téléphonique 8h-18h",
+          "Accès au dossier médical en ligne",
+          "Remises sur les services supplémentaires"
+        ],
+        "cta": "Choisir ce forfait"
+      },
+      {
+        "name": "Premium",
+        "description": "Pour un suivi médical complet",
+        "price": {
+          "monthly": "99 DT",
+          "yearly": "1069 DT"
+        },
+        "features": [
+          "Tout ce qui est inclus dans Essentiel",
+          "Visites à domicile (2 par mois)",
+          "Accompagnement médical (1 par mois)",
+          "Assistance téléphonique 24/7",
+          "Coordination avec les spécialistes",
+          "Livraison de médicaments à domicile"
+        ],
+        "popular": true,
+        "cta": "Choisir ce forfait"
+      },
+      {
+        "name": "Famille",
+        "description": "Pour toute la famille (jusqu'à 5 personnes)",
+        "price": {
+          "monthly": "179 DT",
+          "yearly": "1929 DT"
+        },
+        "features": [
+          "Tout ce qui est inclus dans Premium",
+          "Couverture pour 5 membres de la famille",
+          "Visites à domicile (5 par mois)",
+          "Bilan de santé annuel pour chaque membre",
+          "Réductions sur les opérations chirurgicales",
+          "Conseiller médical personnel"
+        ],
+        "cta": "Choisir ce forfait"
+      }
+    ],
+    "disclaimer": "Les prix sont indicatifs et peuvent varier selon les besoins spécifiques. Contactez-nous pour une consultation personnalisée."
+  },
+  "equipment": {
+    "title": "Notre Équipement Médical",
+    "subtitle": "Des technologies de pointe pour des soins optimaux",
+    "categories": [
+      {
+        "name": "Équipement de diagnostic",
+        "items": [
+          {
+            "name": "Moniteur de signes vitaux",
+            "description": "Surveillance précise des paramètres vitaux du patient, incluant la pression artérielle, le pouls, la saturation en oxygène et la température.",
+            "image": "/Vital Signs Monitor.jpg",
+            "features": [
+              "Écran tactile haute résolution",
+              "Batterie longue durée (8h)",
+              "Alarmes personnalisables",
+              "Transfert de données sans fil",
+              "Compact et portable"
+            ]
+          },
+          {
+            "name": "Électrocardiographe portable",
+            "description": "Appareil compact permettant de réaliser des ECG à domicile pour surveiller l'activité électrique du cœur.",
+            "image": "/Électrocardiographe portable.jpg",
+            "features": [
+              "12 dérivations",
+              "Résultats en 30 secondes",
+              "Interprétation automatique",
+              "Mémoire pour 200 examens",
+              "Connexion Bluetooth"
+            ]
+          },
+          {
+            "name": "Échographe portable",
+            "description": "Système d'imagerie ultrasonore compact pour examens à domicile, permettant des diagnostics rapides sans déplacement du patient.",
+            "image": "/Portable Ultrasound.jpeg",
+            "features": [
+              "Haute résolution d'image",
+              "Plusieurs sondes disponibles",
+              "Batterie de 3 heures",
+              "Stockage cloud sécurisé",
+              "Interface intuitive"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Équipement de soins",
+        "items": [
+          {
+            "name": "Concentrateur d'oxygène",
+            "description": "Appareil médical fournissant de l'oxygène à haute concentration pour les patients souffrant d'insuffisance respiratoire.",
+            "image": "/Concentrateur d'oxygène.png",
+            "features": [
+              "Débit jusqu'à 5L/min",
+              "Fonctionnement silencieux",
+              "Filtration HEPA",
+              "Alarmes de sécurité",
+              "Compact et mobile"
+            ]
+          },
+          {
+            "name": "Pompe à perfusion",
+            "description": "Dispositif médical permettant l'administration précise et contrôlée de médicaments par voie intraveineuse.",
+            "image": "/Pompe à perfusion.png",
+            "features": [
+              "Précision de dosage ±2%",
+              "Multiples modes de perfusion",
+              "Batterie de secours",
+              "Détection d'occlusion",
+              "Interface multilingue"
+            ]
+          },
+          {
+            "name": "Aspirateur chirurgical",
+            "description": "Équipement médical utilisé pour l'aspiration des sécrétions chez les patients alités ou en post-opératoire.",
+            "image": "/Surgical Aspirator.png",
+            "features": [
+              "Puissance d'aspiration réglable",
+              "Réservoir de 2L",
+              "Filtre antibactérien",
+              "Fonctionnement sur batterie",
+              "Nettoyage facile"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Équipement de mobilité",
+        "items": [
+          {
+            "name": "Lit médicalisé",
+            "description": "Lit spécialement conçu pour les soins à domicile, offrant confort au patient et facilitant le travail des soignants.",
+            "image": "/Medical Bed.png",
+            "features": [
+              "Réglage électrique de la hauteur",
+              "Positions multiples",
+              "Barrières de sécurité",
+              "Télécommande intuitive",
+              "Roues avec système de freinage"
+            ]
+          },
+          {
+            "name": "Fauteuil roulant électrique",
+            "description": "Fauteuil motorisé permettant une mobilité autonome aux patients à mobilité réduite.",
+            "image": "/Fauteuil roulant électrique.jpeg",
+            "features": [
+              "Autonomie de 25km",
+              "Vitesse max 10km/h",
+              "Siège ergonomique",
+              "Commandes adaptables",
+              "Franchissement d'obstacles"
+            ]
+          },
+          {
+            "name": "Lève-personne",
+            "description": "Dispositif permettant de soulever et déplacer en toute sécurité les patients à mobilité réduite.",
+            "image": "/Lève-personne.png",
+            "features": [
+              "Capacité jusqu'à 180kg",
+              "Batterie longue durée",
+              "Sangles confortables",
+              "Pliable pour le transport",
+              "Système d'arrêt d'urgence"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "promoVideo": {
+    "title": "Découvrez Nos Services",
+    "subtitle": "Une vidéo qui présente notre engagement envers votre santé et bien-être",
+    "videoUrl": "/placeholder.mp4",
+    "posterUrl": "/placeholder.svg?height=720&width=1280&text=Vidéo+Promotionnelle"
+  },
+  "appointment": {
+    "title": "Prendre Rendez-vous",
+    "subtitle": "Réservez facilement une consultation ou une visite à domicile",
+    "form": {
+      "nameLabel": "Votre nom complet",
+      "emailLabel": "Votre adresse email",
+      "phoneLabel": "Votre numéro de téléphone",
+      "dateLabel": "Date souhaitée",
+      "timeLabel": "Heure souhaitée",
+      "serviceLabel": "Service demandé",
+      "serviceOptions": [
+        {
+          "value": "consultation",
+          "label": "Consultation médicale"
+        },
+        {
+          "value": "visite",
+          "label": "Visite à domicile"
+        },
+        {
+          "value": "accompagnement",
+          "label": "Accompagnement médical"
+        },
+        {
+          "value": "financement",
+          "label": "Conseil en financement"
+        },
+        {
+          "value": "autre",
+          "label": "Autre service"
+        }
+      ],
+      "messageLabel": "Informations complémentaires",
+      "submitButton": "Confirmer le rendez-vous",
+      "successMessage": "Votre demande de rendez-vous a été envoyée avec succès. Notre équipe vous contactera dans les plus brefs délais pour confirmer votre rendez-vous."
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Nous sommes là pour vous aider avec tous vos besoins d'assistance médicale",
+    "mapTitle": "Nos emplacements sur la carte",
+    "locations": [
+      {
+        "name": "Bureau de Gafsa",
+        "address": "Centre Médical Rawashed, Sidi Ahmed Zarrouk, Gafsa 2112",
+        "phone": "76.210.618",
+        "mobile": "99.376.370",
+        "email": "merle.assistance@gmail.com",
+        "hours": "Lun-Ven: 8h-18h, Sam: 9h-13h"
+      },
+      {
+        "name": "Bureau de Sousse",
+        "address": "Centre Médical Kantaoui, Rue 14 Janvier, Route Touristique, Sousse, Bureau B53",
+        "phone": "73.202.593",
+        "email": "merle.assistance@gmail.com",
+        "hours": "Lun-Ven: 8h-18h, Sam: 9h-13h"
+      }
+    ],
+    "formTitle": "Envoyez-nous un message",
+    "nameLabel": "Votre Nom",
+    "emailLabel": "Votre Email",
+    "messageLabel": "Votre Message",
+    "submitButton": "Envoyer le Message",
+    "successMessage": "Votre message a été envoyé avec succès. Notre équipe vous contactera dans les plus brefs délais."
+  },
+  "testimonials": {
+    "title": "Témoignages",
+    "subtitle": "Ce que nos clients disent de nos services",
+    "items": [
+      {
+        "quote": "Le service d'accompagnement médical de Le Merle a été exceptionnel. Leur équipe a pris en charge tous les aspects de mon traitement, me permettant de me concentrer uniquement sur ma guérison.",
+        "author": "Sophie Dupont",
+        "role": "Patiente, Sousse",
+        "etoile":5,
+        "image": "/placeholder.svg?height=400&width=300&text=Sophie"
+      },
+      {
+        "quote": "Grâce à leur service de financement, j'ai pu accéder à une opération urgente sans stress financier. Leur approche humaine et professionnelle fait toute la différence.",
+        "author": "Ahmed Ben Ali",
+        "role": "Patient, Gafsa",
+        "etoile":4,
+        "image": "/placeholder.svg?height=400&width=300&text=Ahmed"
+      },
+      {
+        "quote": "Les visites à domicile ont été une bénédiction pour ma mère âgée. L'équipe médicale est non seulement compétente mais aussi incroyablement attentionnée et respectueuse.",
+        "author": "Marie Lefèvre",
+        "role": "Aidante familiale, Tunis",
+        "etoile":5,
+        "image": "/placeholder.svg?height=400&width=300&text=Marie"
+      }
+    ]
+  },
+  "servicesPage": {
+    "title": "Nos Services Médicaux",
+    "subtitle": "Des solutions de santé complètes adaptées à vos besoins",
+    "ctaTitle": "Besoin d'assistance médicale ?",
+    "ctaText": "Notre équipe est disponible 24/7 pour répondre à toutes vos questions et vous aider à trouver la solution adaptée à vos besoins.",
+    "ctaButton": "Contactez-nous maintenant"
+  },
+  "aboutPage": {
+    "title": "À Propos de Nous",
+    "subtitle": "Découvrez notre histoire, notre mission et nos valeurs",
+    "missionTitle": "Notre Mission",
+    "missionText": "Nous fournissons des services médicaux spécialisés et un soutien sanitaire, avec un engagement envers les normes les plus élevées de qualité et d'humanité, pour faciliter la vie de nos patients et de leurs familles, et les accompagner dans tous les détails de leur parcours de santé.",
+    "visionTitle": "Notre Vision",
+    "visionText": "Être le premier partenaire de confiance pour les soins à domicile et médicaux en Tunisie, en fournissant des services intégrés, humains et innovants qui mettent le confort du patient au premier plan.",
+    "valuesTitle": "Nos Valeurs",
+    "values": [
+      {
+        "title": "Compassion",
+        "description": "Nous plaçons les sentiments du patient et de sa famille au cœur de chaque service que nous fournissons.",
+        "icon": "/placeholder.svg?height=24&width=24&text=❤️"
+      },
+      {
+        "title": "Professionnalisme",
+        "description": "Nous nous engageons à la précision, à l'efficacité et à la confidentialité médicale.",
+        "icon": "/placeholder.svg?height=24&width=24&text=🏆"
+      },
+      {
+        "title": "Innovation",
+        "description": "Nous adoptons la technologie moderne pour faciliter l'accès aux soins de santé.",
+        "icon": "/placeholder.svg?height=24&width=24&text=💡"
+      },
+      {
+        "title": "Dévouement",
+        "description": "Nous accompagnons nos patients avec un dévouement total, un soutien et une attention continus.",
+        "icon": "/placeholder.svg?height=24&width=24&text=🤝"
+      },
+      {
+        "title": "Transparence",
+        "description": "Nous construisons nos relations avec les patients et les partenaires sur la confiance et la clarté totale.",
+        "icon": "/placeholder.svg?height=24&width=24&text=🔍"
+      }
+    ],
+    "historyTitle": "Notre Histoire",
+    "historyText": "Depuis notre création, nous nous sommes engagés à fournir des soins de santé de qualité supérieure avec une approche centrée sur le patient.",
+    "milestones": [
+      {
+        "year": "2015",
+        "title": "Fondation",
+        "description": "Création de Le Merle Assistance Médicale à Gafsa avec une petite équipe dédiée."
+      },
+      {
+        "year": "2017",
+        "title": "Expansion des services",
+        "description": "Lancement des services de visites à domicile et de consultations à distance."
+      },
+      {
+        "year": "2019",
+        "title": "Ouverture à Sousse",
+        "description": "Inauguration de notre deuxième bureau à Sousse pour servir la région côtière."
+      },
+      {
+        "year": "2021",
+        "title": "Innovation technologique",
+        "description": "Mise en place d'une plateforme numérique pour la gestion des rendez-vous et consultations."
+      },
+      {
+        "year": "2023",
+        "title": "Reconnaissance nationale",
+        "description": "Récompensé comme l'un des meilleurs services d'assistance médicale en Tunisie."
+      }
+    ],
+    "teamTitle": "Notre Équipe",
+    "teamSubtitle": "Des professionnels dévoués à votre service",
+    "members": [
+      {
+        "name": "Dr. Mohamed Khadhraoui",
+        "role": "Directeur Médical",
+        "bio": "Médecin expérimenté avec plus de 15 ans de pratique en médecine générale et gestion de services de santé.",
+        "image": "/team1.jpg",
+        "social": {
+          "linkedin": "#"
+        }
+      },
+      {
+        "name": "Leila Ben Salah",
+        "role": "Coordinatrice des Soins",
+        "bio": "Infirmière spécialisée en coordination des soins à domicile avec une expertise en soins gériatriques.",
+        "image": "/team3.jpg",
+        "social": {
+          "linkedin": "#"
+        }
+      },
+      {
+        "name": "Karim Mansouri",
+        "role": "Responsable Financier",
+        "bio": "Expert en solutions de financement médical avec une approche centrée sur l'accessibilité des soins pour tous.",
+        "image": "/team2.jpg",
+        "social": {
+          "linkedin": "#"
+        }
+      }
+
+    ],
+    "partnersTitle": "Nos Partenaires",
+    "partnersSubtitle": "Nous collaborons avec les meilleurs pour vous offrir des services de qualité",
+    "partners": [
+     
+      {
+        "name": "Clinique Kantaoui",
+        "logo": "/cnam.png"
+      },
+      {
+        "name": "Laboratoire Central",
+        "logo": "/cnam.png"
+      },
+      {
+        "name": "Assurance Médicale Plus",
+        "logo": "/cnam.png"
+      }, 
+      {
+        "name": "Assurance Médicale Plus",
+        "logo": "/cnam.png"
+      }
+    ]
+  },
+  "contactPage": {
+    "title": "Contactez-Nous",
+    "subtitle": "Nous sommes là pour répondre à toutes vos questions",
+    "image": "/placeholder.svg?height=800&width=1600&text=Contact",
+    "faqTitle": "Questions Fréquentes",
+    "faqSubtitle": "Trouvez rapidement des réponses à vos questions",
+    "faqs": [
+      {
+        "question": "Comment puis-je prendre rendez-vous pour une visite à domicile ?",
+        "answer": "Vous pouvez prendre rendez-vous en nous appelant directement, en envoyant un email ou en remplissant le formulaire de contact sur notre site. Notre équipe vous contactera dans les 24 heures pour confirmer votre rendez-vous."
+      },
+      {
+        "question": "Quelles zones géographiques couvrez-vous ?",
+        "answer": "Nous couvrons principalement les régions de Gafsa et Sousse, ainsi que leurs environs dans un rayon de 50 km. Pour les zones plus éloignées, veuillez nous contacter pour vérifier la disponibilité."
+      },
+      {
+        "question": "Comment fonctionne le service de financement des opérations ?",
+        "answer": "Notre service de financement évalue votre situation financière et médicale pour proposer un plan de paiement adapté. Nous travaillons avec plusieurs institutions financières pour offrir des taux avantageux et des délais flexibles."
+      },
+      {
+        "question": "Les consultations à distance sont-elles remboursées par l'assurance ?",
+        "answer": "Cela dépend de votre assurance. De nombreuses compagnies d'assurance couvrent désormais les téléconsultations. Nous pouvons vous fournir tous les documents nécessaires pour votre demande de remboursement."
+      },
+      {
+        "question": "Quel est le délai pour obtenir une consultation d'urgence ?",
+        "answer": "Pour les urgences non vitales, nous pouvons généralement organiser une consultation dans les 2 à 4 heures. Pour les urgences vitales, veuillez contacter directement les services d'urgence au 190."
+      }
+    ]
+  },
+  "footer": {
+    "links": [
+      {
+        "title": "Liens Rapides",
+        "items": [
+          {
+            "name": "Accueil",
+            "href": "/"
+          },
+          {
+            "name": "Services",
+            "href": "/services"
+          },
+          {
+            "name": "À propos",
+            "href": "/about"
+          },
+          {
+            "name": "Contact",
+            "href": "/contact"
+          },{
+            "name": "Informations",
+            "href": "/info"
+          },{
+            "name": "Blog",
+            "href": "/blog"
+          },{
+            "name":  "Avis",
+            "href":"/reviews"
+          }
+        ]
+      },
+      {
+        "title": "Services",
+        "items": [
+          {
+            "name": "Visites à domicile",
+            "href": "/services#home-visits"
+          },
+          {
+            "name": "Consultations médicales",
+            "href": "/services#consultations"
+          },
+          {
+            "name": "Accompagnement du patient",
+            "href": "/services#accompaniment"
+          },
+          {
+            "name": "Gestion des rendez-vous",
+            "href": "/services#appointments"
+          },
+          {
+            "name": "Financement des opérations",
+            "href": "/services#financing"
+          }
+        ]
+      }
+    ],
+    "contact": {
+      "title": "Contact",
+      "email": "merle.assistance@gmail.com",
+      "phone": "+216 76 210 618",
+      "address": "Centre Médical Rawashed, Sidi Ahmed Zarrouk, Gafsa 2112"
+    },
+    "copyright": "© 2025 Le Merle Assistance Médicale. Tous droits réservés."
+  },
+"infoPage": {
+    "title": "Informations Médicales",
+    "subtitle": "Ressources et informations pour mieux comprendre votre santé",
+    "sections": [
+      {
+        "title": "Prévention et bien-être",
+        "content": [
+          "La prévention est un élément clé pour maintenir une bonne santé. Adopter un mode de vie sain peut réduire considérablement les risques de développer des maladies chroniques.",
+          "Une alimentation équilibrée, riche en fruits et légumes, une activité physique régulière, un sommeil de qualité et la gestion du stress sont les piliers d'une bonne santé.",
+          "Les examens médicaux préventifs réguliers permettent de détecter précocement d'éventuels problèmes de santé et d'intervenir avant qu'ils ne deviennent graves."
+        ],
+        "image": "/Prévention et bien-être.jpg"
+      },
+      {
+        "title": "Maladies chroniques",
+        "content": [
+          "Les maladies chroniques comme le diabète, l'hypertension, les maladies cardiaques ou respiratoires nécessitent un suivi médical régulier et une gestion quotidienne.",
+          "L'observance du traitement prescrit, le suivi des recommandations médicales et l'adoption d'un mode de vie adapté sont essentiels pour bien vivre avec une maladie chronique.",
+          "Notre équipe peut vous accompagner dans la gestion de votre maladie chronique, en coordination avec votre médecin traitant."
+        ],
+        "image": "/Maladies chroniques.jpg"
+      },
+      {
+        "title": "Soins aux personnes âgées",
+        "content": [
+          "Le vieillissement s'accompagne souvent de besoins spécifiques en matière de santé et de soins quotidiens.",
+          "La prévention des chutes, la gestion des médicaments, le maintien de l'autonomie et la stimulation cognitive sont des aspects importants des soins aux personnes âgées.",
+          "Nos services de soins à domicile sont spécialement conçus pour répondre aux besoins des personnes âgées, en leur permettant de rester dans leur environnement familier tout en bénéficiant de soins professionnels."
+        ],
+        "image": "/Soins aux personnes âgées.jpg"
+      }
+    ],
+    "resources": {
+      "title": "Ressources utiles",
+      "subtitle": "Des liens et documents pour approfondir vos connaissances",
+      "items": [
+        {
+          "title": "Guide de la prévention",
+          "description": "Un guide complet sur les mesures préventives pour maintenir une bonne santé",
+          "link": "#",
+          "icon": "file-text"
+        },
+        {
+          "title": "Vidéothèque santé",
+          "description": "Une collection de vidéos éducatives sur divers sujets de santé",
+          "link": "#",
+          "icon": "video"
+        },
+        {
+          "title": "Calculateurs médicaux",
+          "description": "Des outils pour calculer votre IMC, vos besoins caloriques et d'autres indicateurs de santé",
+          "link": "#",
+          "icon": "calculator"
+        },
+        {
+          "title": "Calendrier vaccinal",
+          "description": "Les recommandations officielles pour les vaccinations selon l'âge",
+          "link": "#",
+          "icon": "calendar"
+        }
+      ]
+    }
+  },
+  "blogPage": {
+    "title": "Notre Blog Santé",
+    "subtitle": "Actualités, conseils et témoignages sur la santé et le bien-être",
+    "categories": {
+      "all": "Tous",
+      "health": "Santé",
+      "tips": "Conseils",
+      "news": "Actualités",
+      "stories": "Témoignages"
+    },
+    "readMore": "Lire la suite",
+    "posts": [
+      {
+        "title": "Comment préparer votre domicile pour les soins à domicile",
+        "excerpt": "Découvrez des aménagements simples qui peuvent faciliter les soins à domicile et améliorer le confort du patient.",
+        "date": "15 avril 2025",
+        "author": "Dr Sophie Martin",
+        "category": "tips",
+        "image": "/services-de-soins-infirmiers-domicile.jpg",
+        "slug": "prepare-home-care"
+      },
+      {
+        "title": "Avancées récentes dans le traitement du diabète",
+        "excerpt": "Un aperçu des nouvelles thérapies et technologies révolutionnant la gestion quotidienne du diabète.",
+        "date": "3 mars 2025",
+        "author": "Dr Thomas Dubois",
+        "category": "health",
+       "image": "/diabète.jpg",
+        "slug": "advances-diabetes-treatment"
+      },
+      {
+        "title": "Témoignage : Mon expérience avec les soins à domicile",
+        "excerpt": "Marie, 78 ans, partage son expérience positive avec les services de soins à domicile après une hospitalisation.",
+        "date": "20 février 2025",
+        "author": "Équipe éditoriale",
+        "category": "stories",
+        "image": "/experiance1.jpg",
+        "slug": "testimonial-experience-home-care"
+      },
+      {
+        "title": "5 exercices simples pour maintenir la mobilité des seniors",
+        "excerpt": "Des exercices doux mais efficaces que les seniors peuvent pratiquer quotidiennement pour préserver leur mobilité.",
+        "date": "12 janvier 2025",
+        "author": "Léa Bernard, Kinésithérapeute",
+        "category": "tips",
+        "image": "/exercices seniore.jpg",
+        "slug": "exercises-senior-mobility"
+      },
+      {
+        "title": "Nouvelles réglementations pour les services de santé à domicile",
+        "excerpt": "Un résumé des récents changements législatifs concernant les services de santé à domicile en Tunisie.",
+        "date": "5 janvier 2025",
+        "author": "M. Ahmed Trabelsi",
+        "category": "news",
+        "image": "/santé à domicile.jpg",
+        "slug": "new-regulations-home-health"
+      },
+      {
+        "title": "L'importance du soutien psychologique dans le processus de guérison",
+        "excerpt": "Comment le bien-être mental influence la récupération physique et pourquoi il ne doit pas être négligé.",
+        "date": "15 décembre 2025",
+        "author": "Dr Nadia Mansouri, Psychologue",
+        "category": "health",
+        "image": "/soutien.jpg",
+        "slug": "importance-psychological-support-healing"
+      }
+    ]
+  
+    
+  },
+  "reviewsPage": {
+    "title": "Vos Avis",
+    "subtitle": "Partagez votre expérience avec Le Merle Assistance Médicale",
+    "testimonials": {
+      "title": "Ce que disent nos clients",
+      "subtitle": "Découvrez les témoignages de personnes qui ont bénéficié de nos services"
+    },
+    "form": {
+      "title": "Donnez votre avis",
+      "subtitle": "Votre feedback nous aide à améliorer continuellement nos services",
+      "nameLabel": "Votre nom",
+      "emailLabel": "Votre email",
+      "ratingLabel": "Votre note",
+      "messageLabel": "Votre message",
+      "submitButton": "Envoyer votre avis",
+      "successMessage": "Merci pour votre avis ! Il sera publié après modération."
+    },
+    "stats": {
+      "title": "Notre impact en chiffres",
+      "items": [
+        {
+          "value": "98%",
+          "label": "Taux de satisfaction"
+        },
+        {
+          "value": "5000+",
+          "label": "Patients accompagnés"
+        },
+        {
+          "value": "24/7",
+          "label": "Disponibilité"
+        },
+        {
+          "value": "15+",
+          "label": "Années d'expérience"
+        }
+      ]
+    }
+  } 
+
+}
+

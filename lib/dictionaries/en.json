@@ -1,0 +1,791 @@
+{
+   
+  "navigation": {
+ "home": "Home",
+  "services": "Services",
+  "about": "About",
+  "contact": "Contact",
+  "info": "Information",
+  "blog": "Blog",
+  "reviews": "Reviews"
+  },
+
+  "home": {
+    "title": "Le Merle Medical Assistance",
+    "subtitle": "Professional healthcare services with a human touch",
+    "cta": "Contact Us"
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Le Merle Medical Assistance?",
+    "description": "At Le Merle Medical Assistance, we believe that healthcare is not just treatment, but care, support, and sincere accompaniment at every step.",
+    "benefits": [
+      "Quick response time",
+      "On-site and remote medical services",
+      "Treatment financing solutions",
+      "Continuous psychological and family support",
+      "Comprehensive coverage for various health needs"
+    ],
+    "conclusion": "Choose comfort, safety, and complete support... Choose Le Merle Medical Assistance."
+  },
+  "promoVideo": {
+    "title": "Discover Our Services",
+    "subtitle": "A video showcasing our commitment to your health and well-being",
+    "videoUrl": "/ambulance.mp4",
+    "posterUrl": "/placeholder.svg?height=720&width=1280&text=Promotional+Video"
+  },
+  "vision": {
+    "visionTitle": "Our Vision",
+    "visionText": "To be the first trusted partner for home and medical care in Tunisia, by providing integrated, humane, and innovative services that put patient comfort first.",
+    "missionTitle": "Our Mission",
+    "missionText": "We provide specialized medical services and health support, with a commitment to the highest standards of quality and humanity, to facilitate the lives of our patients and their families, and accompany them in every detail of their health journey.",
+    "valuesTitle": "Our Values",
+    "values": [
+      {
+        "title": "Compassion",
+        "description": "We place the feelings of the patient and their family at the heart of every service we provide."
+      },
+      {
+        "title": "Professionalism",
+        "description": "We are committed to accuracy, efficiency, and medical confidentiality."
+      },
+      {
+        "title": "Innovation",
+        "description": "We adopt modern technology to facilitate access to healthcare."
+      },
+      {
+        "title": "Dedication",
+        "description": "We accompany our patients with complete dedication, continuous support and attention."
+      },
+      {
+        "title": "Transparency",
+        "description": "We build our relationships with patients and partners on trust and complete clarity."
+      }
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "services": [
+      {
+        "title": "Home Visits",
+        "description": "We provide home visit services through our specialized medical team, wherever you are. Whether you need to follow up on a health condition, provide treatment, post-operative care, or even monitor chronic diseases, we come to you with all the necessary medical equipment to ensure your comfort and safety in your home.",
+        "image": "/Visites à domicile.jpg",
+        "features": [
+          "Qualified medical team available 24/7",
+          "Complete medical equipment",
+          "Personalized treatment monitoring",
+          "Coordination with treating physicians",
+          "Detailed reports after each visit"
+        ]
+      },
+      {
+        "title": "Medical Consultations",
+        "description": "Thanks to our network of general practitioners, you can easily get a medical consultation: remotely via video or phone call, to save time and reduce the hassle of travel, or in person at our centers or at home when needed, ensuring the highest levels of medical quality.",
+        "image": "/Consultations.jpg",
+        "features": [
+          "Video consultations with specialists",
+          "Appointments available within 24 hours",
+          "Secure electronic medical records",
+          "Post-consultation follow-up",
+          "Electronic prescriptions"
+        ]
+      },
+      {
+        "title": "Patient Accompaniment",
+        "description": "No need to worry about your transportation. We provide you with a personal accompaniment service to hospitals and clinics, including: organizing safe transportation, administrative support during medical registration, and the presence of the companion with the patient during examinations or medical appointments.",
+        "image": "/Accompagnement.jpg",
+        "features": [
+          "Comfortable medical transport",
+          "Complete administrative assistance",
+          "Accompaniment during consultations",
+          "Medical translation if needed",
+          "Coordination of multiple appointments"
+        ]
+      },
+      {
+        "title": "Appointment Management",
+        "description": "We professionally manage all your medical appointments. From booking consultations to coordinating examination and operation appointments: appointment reminders, selecting the most suitable doctors and centers according to the case, and precise time management to avoid long waiting.",
+        "image": "/rendez-vous.jpg",
+        "features": [
+          "Optimized appointment scheduling",
+          "Automatic SMS and email reminders",
+          "Selection of the best specialists",
+          "Management of cancellations and rescheduling",
+          "Complete medical calendar tracking"
+        ]
+      },
+      {
+        "title": "Surgery Financing",
+        "description": "Because health doesn't wait, we help you finance the costs of surgical operations through flexible and quick solutions, including: payment plans suitable for your capabilities, partnerships with accredited health financing institutions, and guidance and accompaniment in all stages of treatment financing until complete recovery.",
+        "image": "/chirurgicales.jpg",
+        "features": [
+          "Personalized payment plans",
+          "Partnerships with financial institutions",
+          "Fast processing of applications",
+          "Specialized financial advice",
+          "Transparent payment tracking"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help you with all your medical assistance needs",
+    "mapTitle": "Our locations on the map",
+    "locations": [
+      {
+        "name": "Gafsa Office",
+        "address": "Rawashed Medical Center, Sidi Ahmed Zarrouk, Gafsa 2112",
+        "phone": "76.210.618",
+        "mobile": "99.376.370",
+        "email": "merle.assistance@gmail.com",
+        "hours": "Mon-Fri: 8am-6pm, Sat: 9am-1pm"
+      },
+      {
+        "name": "Sousse Office",
+        "address": "Kantaoui Medical Center, 14 January Street, Tourist Road, Sousse, Office B53",
+        "phone": "73.202.593",
+        "email": "merle.assistance@gmail.com",
+        "hours": "Mon-Fri: 8am-6pm, Sat: 9am-1pm"
+      }
+    ],
+    "formTitle": "Send us a message",
+    "nameLabel": "Your Name",
+    "emailLabel": "Your Email",
+    "messageLabel": "Your Message",
+    "submitButton": "Send Message",
+    "successMessage": "Your message has been sent successfully. Our team will contact you shortly."
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "What our clients say about our services",
+    "items": [
+      {
+        "quote": "Le Merle's medical assistance service has been exceptional. Their team took care of all aspects of my treatment, allowing me to focus solely on my recovery.",
+        "author": "Sophie Dupont",
+        "role": "Patient, Sousse",
+        "etoile":5,
+        "image": "/placeholder.svg?height=400&width=300&text=Sophie"
+      },
+      {
+        "quote": "Thanks to their financing service, I was able to access urgent surgery without financial stress. Their human and professional approach makes all the difference.",
+        "author": "Ahmed Ben Ali",
+        "role": "Patient, Gafsa",
+        "etoile":4,
+        "image": "/placeholder.svg?height=400&width=300&text=Ahmed"
+      },
+      {
+        "quote": "The home visits have been a blessing for my elderly mother. The medical team is not only competent but also incredibly caring and respectful.",
+        "author": "Marie Lefèvre",
+        "role": "Family Caregiver, Tunis",
+        "etoile":5,
+        "image": "/placeholder.svg?height=400&width=300&text=Marie"
+      }
+    ]
+  },
+  "servicesPage": {
+    "title": "Our Medical Services",
+    "subtitle": "Comprehensive health solutions tailored to your needs",
+    "ctaTitle": "Need medical assistance?",
+    "ctaText": "Our team is available 24/7 to answer all your questions and help you find the solution adapted to your needs.",
+    "ctaButton": "Contact us now"
+  },
+  "aboutPage": {
+    "title": "About Us",
+    "subtitle": "Discover our history, mission, and values",
+    "missionTitle": "Our Mission",
+    "missionText": "We provide specialized medical services and health support, with a commitment to the highest standards of quality and humanity, to facilitate the lives of our patients and their families, and accompany them in every detail of their health journey.",
+    "visionTitle": "Our Vision",
+    "visionText": "To be the first trusted partner for home and medical care in Tunisia, by providing integrated, humane, and innovative services that put patient comfort first.",
+    "valuesTitle": "Our Values",
+    "values": [
+      {
+        "title": "Compassion",
+        "description": "We place the feelings of the patient and their family at the heart of every service we provide.",
+        "icon": "/placeholder.svg?height=24&width=24&text=❤️"
+      },
+      {
+        "title": "Professionalism",
+        "description": "We are committed to accuracy, efficiency, and medical confidentiality.",
+        "icon": "/placeholder.svg?height=24&width=24&text=🏆"
+      },
+      {
+        "title": "Innovation",
+        "description": "We adopt modern technology to facilitate access to healthcare.",
+        "icon": "/placeholder.svg?height=24&width=24&text=💡"
+      },
+      {
+        "title": "Dedication",
+        "description": "We accompany our patients with complete dedication, continuous support and attention.",
+        "icon": "/placeholder.svg?height=24&width=24&text=🤝"
+      },
+      {
+        "title": "Transparency",
+        "description": "We build our relationships with patients and partners on trust and complete clarity.",
+        "icon": "/placeholder.svg?height=24&width=24&text=🔍"
+      }
+    ],
+    "historyTitle": "Our History",
+    "historyText": "Since our founding, we have been committed to providing superior healthcare with a patient-centered approach.",
+    "milestones": [
+      {
+        "year": "2015",
+        "title": "Foundation",
+        "description": "Creation of Le Merle Medical Assistance in Gafsa with a small dedicated team."
+      },
+      {
+        "year": "2017",
+        "title": "Service Expansion",
+        "description": "Launch of home visit services and remote consultations."
+      },
+      {
+        "year": "2019",
+        "title": "Sousse Opening",
+        "description": "Inauguration of our second office in Sousse to serve the coastal region."
+      },
+      {
+        "year": "2021",
+        "title": "Technological Innovation",
+        "description": "Implementation of a digital platform for appointment and consultation management."
+      },
+      {
+        "year": "2023",
+        "title": "National Recognition",
+        "description": "Awarded as one of the best medical assistance services in Tunisia."
+      }
+    ],
+    "teamTitle": "Our Team",
+    "teamSubtitle": "Dedicated professionals at your service",
+    "members": [
+      {
+        "name": "Dr. Mohamed Khadhraoui",
+        "role": "Medical Director",
+        "bio": "Experienced physician with over 15 years of practice in general medicine and health service management.",
+        "image": "/team1.jpg",
+        "social": {
+          "linkedin": "#"
+        }
+      },
+      {
+        "name": "Leila Ben Salah",
+        "role": "Care Coordinator",
+        "bio": "Nurse specialized in home care coordination with expertise in geriatric care.",
+        "image":"/team3.jpg",
+        "social": {
+          "linkedin": "#"
+        }
+      },
+      
+      {
+        "name": "Karim Mansouri",
+        "role": "Financial Manager",
+        "bio": "Expert in medical financing solutions with an approach centered on healthcare accessibility for all.",
+        "image": "/team2.jpg",
+        "social": {
+          "linkedin": "#"
+        }
+      }
+
+
+    ],
+    "partnersTitle": "Our Partners",
+    "partnersSubtitle": "We collaborate with the best to offer you quality services",
+    "partners": [
+      {
+        "name": "Gafsa Regional Hospital",
+        "logo": "/cnam.png"
+      },
+      {
+        "name": "Kantaoui Clinic",
+        "logo": "/cnam.png"
+      },
+      {
+        "name": "Central Laboratory",
+        "logo": "/cnam.png"
+      },
+      {
+        "name": "Medical Insurance Plus",
+        "logo": "/cnam.png"
+      }
+    ]
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "subtitle": "We're here to answer all your questions",
+    "image": "/placeholder.svg?height=800&width=1600&text=Contact",
+    "faqTitle": "Frequently Asked Questions",
+    "faqSubtitle": "Find quick answers to your questions",
+    "faqs": [
+      {
+        "question": "How can I schedule a home visit?",
+        "answer": "You can schedule an appointment by calling us directly, sending an email, or filling out the contact form on our website. Our team will contact you within 24 hours to confirm your appointment."
+      },
+      {
+        "question": "What geographic areas do you cover?",
+        "answer": "We mainly cover the Gafsa and Sousse regions, as well as their surroundings within a 50 km radius. For more distant areas, please contact us to check availability."
+      },
+      {
+        "question": "How does the surgery financing service work?",
+        "answer": "Our financing service evaluates your financial and medical situation to propose a suitable payment plan. We work with several financial institutions to offer advantageous rates and flexible terms."
+      },
+      {
+        "question": "Are remote consultations covered by insurance?",
+        "answer": "It depends on your insurance. Many insurance companies now cover teleconsultations. We can provide you with all the necessary documents for your reimbursement request."
+      },
+      {
+        "question": "What is the timeframe for obtaining an urgent consultation?",
+        "answer": "For non-vital emergencies, we can usually arrange a consultation within 2 to 4 hours. For vital emergencies, please contact emergency services directly at 190."
+      }
+    ]
+  },
+  "footer": {
+    "links": [
+      {
+        "title": "Quick Links",
+        "items": [
+          {
+            "name": "Home",
+            "href": "/"
+          },
+          {
+            "name": "Services",
+            "href": "/services"
+          },
+          {
+            "name": "About Us",
+            "href": "/about"
+          },
+          {
+            "name": "Contact",
+            "href": "/contact"
+          },{
+            "name": "Informations",
+            "href": "/info"
+          },{
+            "name": "Blog",
+            "href": "/blog"
+          },{
+            "name":  "Reviews",
+            "href":"/reviews"
+          }
+        ]
+      },
+      {
+        "title": "Services",
+        "items": [
+          {
+            "name": "Home Visits",
+            "href": "/services#home-visits"
+          },
+          {
+            "name": "Medical Consultations",
+            "href": "/services#consultations"
+          },
+          {
+            "name": "Patient Accompaniment",
+            "href": "/services#accompaniment"
+          },
+          {
+            "name": "Appointment Management",
+            "href": "/services#appointments"
+          },
+          {
+            "name": "Surgery Financing",
+            "href": "/services#financing"
+          }
+        ]
+      }
+    ],
+    "contact": {
+      "title": "Contact",
+      "email": "merle.assistance@gmail.com",
+      "phone": "+216 76 210 618",
+      "address": "Rawashed Medical Center, Sidi Ahmed Zarrouk, Gafsa 2112"
+    },
+    "copyright": "© 2025 Le Merle Medical Assistance. All rights reserved."
+  },
+  "pricing": {
+    "title": "Our Pricing",
+    "subtitle": "Solutions tailored to all budgets and needs",
+    "pricingToggle": {
+      "monthly": "Monthly",
+      "yearly": "Yearly"
+    },
+    "plans": [
+      {
+        "name": "Basic",
+        "description": "For basic medical needs",
+        "price": {
+          "monthly": "$49",
+          "yearly": "$529"
+        },
+        "features": [
+          "Remote medical consultations",
+          "Basic appointment management",
+          "Phone assistance 8am-6pm",
+          "Access to online medical records",
+          "Discounts on additional services"
+        ],
+        "cta": "Choose this plan"
+      },
+      {
+        "name": "Premium",
+        "description": "For comprehensive medical follow-up",
+        "price": {
+          "monthly": "$99",
+          "yearly": "$1069"
+        },
+        "features": [
+          "Everything in Basic",
+          "Home visits (2 per month)",
+          "Medical accompaniment (1 per month)",
+          "24/7 phone assistance",
+          "Coordination with specialists",
+          "Home medication delivery"
+        ],
+        "popular": true,
+        "cta": "Choose this plan"
+      },
+      {
+        "name": "Family",
+        "description": "For the whole family (up to 5 people)",
+        "price": {
+          "monthly": "$179",
+          "yearly": "$1929"
+        },
+        "features": [
+          "Everything in Premium",
+          "Coverage for 5 family members",
+          "Home visits (5 per month)",
+          "Annual health check-up for each member",
+          "Discounts on surgical operations",
+          "Personal medical advisor"
+        ],
+        "cta": "Choose this plan"
+      }
+    ],
+    "disclaimer": "Prices are indicative and may vary based on specific needs. Contact us for a personalized consultation."
+  },
+  "equipment": {
+    "title": "Our Medical Equipment",
+    "subtitle": "Cutting-edge technologies for optimal care",
+    "categories": [
+      {
+        "name": "Diagnostic Equipment",
+        "items": [
+          {
+            "name": "Vital Signs Monitor",
+            "description": "Accurate monitoring of patient's vital parameters, including blood pressure, pulse, oxygen saturation, and temperature.",
+            "image": "/Vital Signs Monitor.jpg",
+            "features": [
+              "High-resolution touchscreen",
+              "Long-lasting battery (8 hours)",
+              "Customizable alarms",
+              "Wireless data transfer",
+              "Compact and portable"
+            ]
+          },
+          {
+            "name": "Portable Electrocardiograph",
+            "description": "Compact device for performing ECGs at home to monitor the heart's electrical activity.",
+            "image": "/Électrocardiographe portable.jpg",
+            "features": [
+              "12-lead ECG",
+              "Results in 30 seconds",
+              "Automatic interpretation",
+              "Memory for 200 exams",
+              "Bluetooth connectivity"
+            ]
+          },
+          {
+            "name": "Portable Ultrasound",
+            "description": "Compact ultrasound imaging system for home examinations, enabling quick diagnoses without patient displacement.",
+            "image": "/Portable Ultrasound.jpeg",
+            "features": [
+              "High-resolution imaging",
+              "Multiple probes available",
+              "3-hour battery life",
+              "Secure cloud storage",
+              "Intuitive interface"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Care Equipment",
+        "items": [
+          {
+            "name": "Oxygen Concentrator",
+            "description": "Medical device providing high-concentration oxygen for patients with respiratory insufficiency.",
+            "image": "/Concentrateur d'oxygène.png",
+            "features": [
+              "Flow rate up to 5L/min",
+              "Quiet operation",
+              "HEPA filtration",
+              "Safety alarms",
+              "Compact and mobile"
+            ]
+          },
+          {
+            "name": "Infusion Pump",
+            "description": "Medical device for precise and controlled intravenous medication administration.",
+            "image": "/Pompe à perfusion.png",
+            "features": [
+              "Dosage accuracy ±2%",
+              "Multiple infusion modes",
+              "Backup battery",
+              "Occlusion detection",
+              "Multilingual interface"
+            ]
+          },
+          {
+            "name": "Surgical Aspirator",
+            "description": "Medical equipment for suctioning secretions in bedridden or post-operative patients.",
+            "image": "/Surgical Aspirator.png",
+            "features": [
+              "Adjustable suction power",
+              "2L reservoir",
+              "Antibacterial filter",
+              "Battery operation",
+              "Easy to clean"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mobility Equipment",
+        "items": [
+          {
+            "name": "Medical Bed",
+            "description": "Bed specially designed for home care, providing comfort to the patient and facilitating caregivers' work.",
+            "image": "/Medical Bed.png",
+            "features": [
+              "Electric height adjustment",
+              "Multiple positions",
+              "Safety rails",
+              "Intuitive remote control",
+              "Wheels with braking system"
+            ]
+          },
+          {
+            "name": "Electric Wheelchair",
+            "description": "Motorized wheelchair enabling independent mobility for patients with reduced mobility.",
+            "image": "/Fauteuil roulant électrique.jpeg",
+            "features": [
+              "25km range",
+              "Max speed 10km/h",
+              "Ergonomic seat",
+              "Adaptable controls",
+              "Obstacle crossing capability"
+            ]
+          },
+          {
+            "name": "Patient Lift",
+            "description": "Device for safely lifting and transferring patients with reduced mobility.",
+           "image": "/Lève-personne.png",
+            "features": [
+              "Capacity up to 180kg",
+              "Long-lasting battery",
+              "Comfortable slings",
+              "Foldable for transport",
+              "Emergency stop system"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "appointment": {
+    "title": "Make an Appointment",
+    "subtitle": "Easily book a consultation or home visit",
+    "form": {
+      "nameLabel": "Your full name",
+      "emailLabel": "Your email address",
+      "phoneLabel": "Your phone number",
+      "dateLabel": "Preferred date",
+      "timeLabel": "Preferred time",
+      "serviceLabel": "Requested service",
+      "serviceOptions": [
+        { "value": "consultation", "label": "Medical consultation" },
+        { "value": "visite", "label": "Home visit" },
+        { "value": "accompagnement", "label": "Medical accompaniment" },
+        { "value": "financement", "label": "Financing advice" },
+        { "value": "autre", "label": "Other service" }
+      ],
+      "messageLabel": "Additional information",
+      "submitButton": "Confirm appointment",
+      "successMessage": "Your appointment request has been sent successfully. Our team will contact you shortly to confirm your appointment."
+    }
+  },
+"infoPage": {
+    "title": "Medical Information",
+    "subtitle": "Resources and information to better understand your health",
+    "sections": [
+      {
+        "title": "Prevention and Wellness",
+        "content": [
+          "Prevention is a key element in maintaining good health. Adopting a healthy lifestyle can significantly reduce the risk of developing chronic diseases.",
+          "A balanced diet rich in fruits and vegetables, regular physical activity, quality sleep, and stress management are the pillars of good health.",
+          "Regular preventive medical examinations help detect potential health problems early and intervene before they become serious."
+        ],
+        "image":"/Prévention et bien-être.jpg"
+      },
+      {
+        "title": "Chronic Diseases",
+        "content": [
+          "Chronic diseases such as diabetes, hypertension, heart or respiratory diseases require regular medical monitoring and daily management.",
+          "Adherence to prescribed treatment, following medical recommendations, and adopting an adapted lifestyle are essential for living well with a chronic disease.",
+          "Our team can support you in managing your chronic disease, in coordination with your primary care physician."
+        ],
+        "image": "/Maladies chroniques.jpg"
+      },
+      {
+        "title": "Elderly Care",
+        "content": [
+          "Aging often comes with specific health and daily care needs.",
+          "Fall prevention, medication management, maintaining autonomy, and cognitive stimulation are important aspects of elderly care.",
+          "Our home care services are specially designed to meet the needs of the elderly, allowing them to stay in their familiar environment while receiving professional care."
+        ],
+        "image": "/Soins aux personnes âgées.jpg"
+      }
+    ],
+    "resources": {
+      "title": "Useful Resources",
+      "subtitle": "Links and documents to deepen your knowledge",
+      "items": [
+        {
+          "title": "Prevention Guide",
+          "description": "A comprehensive guide on preventive measures to maintain good health",
+          "link": "#",
+          "icon": "file-text"
+        },
+        {
+          "title": "Health Video Library",
+          "description": "A collection of educational videos on various health topics",
+          "link": "#",
+          "icon": "video"
+        },
+        {
+          "title": "Medical Calculators",
+          "description": "Tools to calculate your BMI, caloric needs, and other health indicators",
+          "link": "#",
+          "icon": "calculator"
+        },
+        {
+          "title": "Vaccination Schedule",
+          "description": "Official recommendations for vaccinations by age",
+          "link": "#",
+          "icon": "calendar"
+        }
+      ]
+    }
+  },
+  "blogPage": {
+    "title": "Our Health Blog",
+    "subtitle": "News, tips, and testimonials on health and wellness",
+    "categories": {
+      "all": "All",
+      "health": "Health",
+      "tips": "Tips",
+      "news": "News",
+      "stories": "Stories"
+    },
+    "readMore": "Read more",
+    "posts": [
+      {
+        "title": "How to Prepare Your Home for Home Care",
+        "excerpt": "Discover simple arrangements that can facilitate home care and improve patient comfort.",
+        "date": "April 15, 2023",
+        "author": "Dr. Sophie Martin",
+        "category": "tips",
+        "image": "/services-de-soins-infirmiers-domicile.jpg",
+        "slug": "prepare-home-care"
+      },
+      {
+        "title": "Recent Advances in Diabetes Treatment",
+        "excerpt": "An overview of new therapies and technologies revolutionizing daily diabetes management.",
+        "date": "March 3, 2025",
+        "author": "Dr. Thomas Dubois",
+        "category": "health",
+       "image": "/diabète.jpg",
+        "slug": "advances-diabetes-treatment"
+      },
+      {
+        "title": "Testimonial: My Experience with Home Care",
+        "excerpt": "Marie, 78, shares her positive experience with home care services after hospitalization.",
+        "date": "February 20, 2025",
+        "author": "Editorial Team",
+        "category": "stories",
+        "image": "/experiance1.jpg",
+        "slug": "testimonial-experience-home-care"
+      },
+      {
+        "title": "5 Simple Exercises to Maintain Senior Mobility",
+        "excerpt": "Gentle but effective exercises that seniors can practice daily to preserve their mobility.",
+        "date": "January 12, 2025",
+        "author": "Léa Bernard, Physiotherapist",
+        "category": "tips",
+        "image":  "/exercices seniore.jpg",
+        "slug": "exercises-senior-mobility"
+      },
+      {
+        "title": "New Regulations for Home Health Services",
+        "excerpt": "A summary of recent legislative changes regarding home health services in Tunisia.",
+        "date": "January 5, 2025",
+        "author": "Mr. Ahmed Trabelsi",
+        "category": "news",
+        "image": "/santé à domicile.jpg",
+        "slug": "new-regulations-home-health"
+      },
+      {
+        "title": "The Importance of Psychological Support in the Healing Process",
+        "excerpt": "How mental well-being influences physical recovery and why it should not be neglected.",
+        "date": "December 15, 2025",
+        "author": "Dr. Nadia Mansouri, Psychologist",
+        "category": "health",
+        "image": "/soutien.jpg",
+        "slug": "importance-psychological-support-healing"
+      }
+    ]
+  },
+  "reviewsPage": {
+    "title": "Your Reviews",
+    "subtitle": "Share your experience with Le Merle Medical Assistance",
+    "testimonials": {
+      "title": "What our clients say",
+      "subtitle": "Discover testimonials from people who have benefited from our services"
+    },
+    "form": {
+      "title": "Give your feedback",
+      "subtitle": "Your feedback helps us continuously improve our services",
+      "nameLabel": "Your name",
+      "emailLabel": "Your email",
+      "ratingLabel": "Your rating",
+      "messageLabel": "Your message",
+      "submitButton": "Submit your review",
+      "successMessage": "Thank you for your review! It will be published after moderation."
+    },
+    "stats": {
+      "title": "Our impact in numbers",
+      "items": [
+        {
+          "value": "98%",
+          "label": "Satisfaction rate"
+        },
+        {
+          "value": "5000+",
+          "label": "Patients supported"
+        },
+        {
+          "value": "24/7",
+          "label": "Availability"
+        },
+        {
+          "value": "15+",
+          "label": "Years of experience"
+        }
+      ]
+    }
+  }
+}
+
+
