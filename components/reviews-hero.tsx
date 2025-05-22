@@ -1,10 +1,9 @@
 "use client"
 
 import { motion } from "framer-motion"
-import Image from "next/image"
 import type { Locale } from "@/lib/i18n-config"
 
-interface ContactHeroProps {
+interface ReviewsHeroProps {
   dictionary: {
     title: string
     subtitle: string
@@ -13,23 +12,17 @@ interface ContactHeroProps {
   lang: Locale
 }
 
-export default function ContactHero({ dictionary, lang }: ContactHeroProps) {
+export default function ReviewsHero({ dictionary, lang }: ReviewsHeroProps) {
   const isRtl = lang === "ar"
 
   return (
     <section className="relative w-full overflow-hidden bg-gradient-to-b from-gray-900 to-gray-800 py-24 md:py-32">
       <div className="absolute inset-0 z-0 opacity-30">
-                 <video
-  className="w-full h-full object-cover brightness-[0.4]"
-  autoPlay
-  loop
-  muted
-  playsInline
->
-  <source src="/contact.mp4" type="video/mp4" />
-  {/* Fallback si le navigateur ne supporte pas la vidéo */}
-  Your browser does not support the video tag.
-</video>
+        <video className="w-full h-full object-cover brightness-[0.4]" autoPlay loop muted playsInline>
+          <source src="/reviews.mp4" type="video/mp4" />
+          {/* Fallback si le navigateur ne supporte pas la vidéo */}
+          Your browser does not support the video tag.
+        </video>
       </div>
 
       {/* Cercles décoratifs */}

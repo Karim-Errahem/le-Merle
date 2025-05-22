@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "/logo.png", // ⚠️ Point critique
   },
+    generator: 'v0.dev'
 };
 export default function RootLayout({
   

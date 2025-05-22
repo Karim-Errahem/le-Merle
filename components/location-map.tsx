@@ -87,3 +87,4 @@ export default function LocationMap({ lang }: LocationMapProps) {
     </div>
   )
 }
+

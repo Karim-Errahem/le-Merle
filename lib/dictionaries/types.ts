@@ -266,17 +266,6 @@ export interface Dictionary {
     }
     copyright: string
   }
-  searchPage: {
-    title: string
-    subtitle: string
-    resultsFor: string
-    noResults: string
-    tryAgain: string
-    resultTypes: {
-      service: string
-      blog: string
-      team: string
-      faq: string
-    }
-  }
+  
+  
 }

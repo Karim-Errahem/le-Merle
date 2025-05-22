@@ -1,4 +1,3 @@
-
 import type { Locale } from "@/lib/i18n-config";
 import { getDictionary } from "@/lib/dictionaries";
 import ContactHero from "@/components/contact-hero";
@@ -15,11 +14,11 @@ export default async function ContactPage(props: { params: { lang: Locale } }) {
     <div className="flex flex-col">
       <ContactHero dictionary={dictionary.contactPage} lang={lang} />
       <div className="container mx-auto grid gap-12 px-4 py-16 md:grid-cols-2 lg:py-24">
-        <ContactInfo dictionary={dictionary.contact} lang={lang} />
-        <ContactForm dictionary={dictionary.contact} lang={lang} />
+       <section id="contact-info"><ContactInfo dictionary={dictionary.contact} lang={lang} /></section> 
+        <section id="contact-form"><ContactForm dictionary={dictionary.contact} lang={lang} /></section> 
       </div>
-      <AppointmentForm dictionary={dictionary.appointment} lang={lang} />
-      <ContactFAQ dictionary={dictionary.contactPage} lang={lang} />
+      <section id="appointment-form"><AppointmentForm dictionary={dictionary.appointment} lang={lang} /></section> 
+      <section id="contact-faq"><ContactFAQ dictionary={dictionary.contactPage} lang={lang} /></section>
     </div>
   );
 }

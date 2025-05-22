@@ -52,7 +52,7 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
         gold: {
-          DEFAULT: "hsl(var(--gold))",
+          DEFAULT: "#FFC000", // Golden Yellow
           foreground: "hsl(var(--gold-foreground))",
         },
         "metallic-gray": {

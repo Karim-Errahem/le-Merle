@@ -4,10 +4,28 @@
     "services": "Services",
     "about": "À propos",
     "contact": "Contact",
-    "info": "Informations",
     "blog": "Blog",
-    "reviews": "Avis"
-  
+    "Information": "Informations",
+    "reviews": "Avis",
+    "subLinks": {
+      "services": [
+        { "title": "Liste des services", "href": "services#services-list" },
+        { "title": "Tarifs", "href": "services#pricing" },
+        { "title": "Équipements", "href": "services#equipment" }
+      ],
+      "about": [
+        { "title": "Notre mission", "href": "about#about-mission" },
+        { "title": "Historique", "href": "about#about-history" },
+        { "title": "Équipe", "href": "about#about-team" },
+        { "title": "Partenaires", "href": "about#about-partners" }
+      ],
+      "contact": [
+        { "title": "Coordonnées", "href": "contact#contact-info" },
+        { "title": "Formulaire", "href": "contact#contact-form" },
+        { "title": "FAQ", "href": "contact#contact-faq" },
+        { "title": "Rendez-vous", "href": "contact#appointment-form" }
+      ]
+    }
   },
   "home": {
     "title": "Le Merle Assistance Médicale",
@@ -390,21 +408,21 @@
         "quote": "Le service d'accompagnement médical de Le Merle a été exceptionnel. Leur équipe a pris en charge tous les aspects de mon traitement, me permettant de me concentrer uniquement sur ma guérison.",
         "author": "Sophie Dupont",
         "role": "Patiente, Sousse",
-        "etoile":5,
+        "etoile": 5,
         "image": "/placeholder.svg?height=400&width=300&text=Sophie"
       },
       {
         "quote": "Grâce à leur service de financement, j'ai pu accéder à une opération urgente sans stress financier. Leur approche humaine et professionnelle fait toute la différence.",
         "author": "Ahmed Ben Ali",
         "role": "Patient, Gafsa",
-        "etoile":4,
+        "etoile": 4,
         "image": "/placeholder.svg?height=400&width=300&text=Ahmed"
       },
       {
         "quote": "Les visites à domicile ont été une bénédiction pour ma mère âgée. L'équipe médicale est non seulement compétente mais aussi incroyablement attentionnée et respectueuse.",
         "author": "Marie Lefèvre",
         "role": "Aidante familiale, Tunis",
-        "etoile":5,
+        "etoile": 5,
         "image": "/placeholder.svg?height=400&width=300&text=Marie"
       }
     ]
@@ -510,12 +528,10 @@
           "linkedin": "#"
         }
       }
-
     ],
     "partnersTitle": "Nos Partenaires",
     "partnersSubtitle": "Nous collaborons avec les meilleurs pour vous offrir des services de qualité",
     "partners": [
-     
       {
         "name": "Clinique Kantaoui",
         "logo": "/cnam.png"
@@ -527,7 +543,7 @@
       {
         "name": "Assurance Médicale Plus",
         "logo": "/cnam.png"
-      }, 
+      },
       {
         "name": "Assurance Médicale Plus",
         "logo": "/cnam.png"
@@ -583,15 +599,18 @@
           {
             "name": "Contact",
             "href": "/contact"
-          },{
+          },
+          {
             "name": "Informations",
             "href": "/info"
-          },{
+          },
+          {
             "name": "Blog",
             "href": "/blog"
-          },{
-            "name":  "Avis",
-            "href":"/reviews"
+          },
+          {
+            "name": "Avis",
+            "href": "/reviews"
           }
         ]
       },
@@ -629,7 +648,7 @@
     },
     "copyright": "© 2025 Le Merle Assistance Médicale. Tous droits réservés."
   },
-"infoPage": {
+  "infoPage": {
     "title": "Informations Médicales",
     "subtitle": "Ressources et informations pour mieux comprendre votre santé",
     "sections": [
@@ -719,7 +738,7 @@
         "date": "3 mars 2025",
         "author": "Dr Thomas Dubois",
         "category": "health",
-       "image": "/diabète.jpg",
+        "image": "/diabète.jpg",
         "slug": "advances-diabetes-treatment"
       },
       {
@@ -759,8 +778,6 @@
         "slug": "importance-psychological-support-healing"
       }
     ]
-  
-    
   },
   "reviewsPage": {
     "title": "Vos Avis",
@@ -800,7 +817,5 @@
         }
       ]
     }
-  } 
-
+  }
 }
-

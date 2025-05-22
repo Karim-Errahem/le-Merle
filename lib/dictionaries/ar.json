@@ -1,12 +1,31 @@
 {
-   "navigation": {
+  "navigation": {
     "home": "الرئيسية",
-    "services": "خدماتنا",
+    "services": "الخدمات",
     "about": "من نحن",
     "contact": "اتصل بنا",
-    "info": "معلومات",
     "blog": "المدونة",
-    "reviews": "آراء"
+    "Information": "معلومات",
+    "reviews": "آراء",
+    "subLinks": {
+      "services": [
+        { "title": "قائمة الخدمات", "href": "services#services-list" },
+        { "title": "الأسعار", "href": "services#pricing" },
+        { "title": "المعدات", "href": "services#equipment" }
+      ],
+      "about": [
+        { "title": "مهمتنا", "href": "about#about-mission" },
+        { "title": "تاريخنا", "href": "about#about-history" },
+        { "title": "فريق العمل", "href": "about#about-team" },
+        { "title": "شركاؤنا", "href": "about#about-partners" }
+      ],
+      "contact": [
+        { "title": "معلومات الاتصال", "href": "contact#contact-info" },
+        { "title": "نموذج التواصل", "href": "contact#contact-form" },
+        { "title": "الأسئلة الشائعة", "href": "contact#contact-faq" },
+        { "title": "حجز موعد", "href": "contact#appointment-form" }
+      ]
+    }
   },
   "home": {
     "title": "لو ميرل للمساعدة الطبية",
@@ -129,7 +148,7 @@
     "plans": [
       {
         "name": "الأساسي",
-        "description": "للاحتياجات الطبية ا��أساسية",
+        "description": "للاحتياجات الطبية اأساسية",
         "price": {
           "monthly": "49 د.ت",
           "yearly": "529 د.ت"
@@ -371,21 +390,21 @@
         "quote": "كانت خدمة المساعدة الطبية من لو ميرل استثنائية. تولى فريقهم جميع جوانب علاجي، مما سمح لي بالتركيز فقط على تعافيي.",
         "author": "صوفي دوبونت",
         "role": "مريضة، سوسة",
-        "etoile":5,
+        "etoile": 5,
         "image": "/placeholder.svg?height=400&width=300&text=صوفي"
       },
       {
         "quote": "بفضل خدمة التمويل الخاصة بهم، تمكنت من الحصول على عملية جراحية عاجلة دون ضغط مالي. نهجهم الإنساني والمهني يحدث كل الفرق.",
         "author": "أحمد بن علي",
         "role": "مريض، قفصة",
-        "etoile":4,
+        "etoile": 4,
         "image": "/placeholder.svg?height=400&width=300&text=أحمد"
       },
       {
         "quote": "كانت الزيارات المنزلية نعمة لوالدتي المسنة. الفريق الطبي ليس كفؤًا فحسب، بل مهتم ومحترم بشكل لا يصدق.",
         "author": "ماري لوفيفر",
         "role": "مقدمة رعاية عائلية، تونس",
-        "etoile":5,
+        "etoile": 5,
         "image": "/placeholder.svg?height=400&width=300&text=ماري"
       }
     ]
@@ -485,7 +504,7 @@
       {
         "name": "كريم منصوري",
         "role": "المدير المالي",
-        "bio": "خبير في حلول التمويل الطبي مع نهج يركز على إمكانية الوصول إلى الرعاية الصحية للجميع.",
+        "bio": "خبير في حلول التمويل الطبي مع نهج يركز على إمكانية الوصول إلى الرعاة الصحية للجميع.",
         "image": "/team2.jpg",
         "social": {
           "linkedin": "#"
@@ -562,15 +581,18 @@
           {
             "name": "اتصل بنا",
             "href": "/contact"
-          },{
+          },
+          {
             "name": "معلومات",
             "href": "/info"
-          },{
+          },
+          {
             "name": "المدونة",
             "href": "/blog"
-          },{
-            "name":  "آراء",
-            "href":"/reviews"
+          },
+          {
+            "name": "آراء",
+            "href": "/reviews"
           }
         ]
       },
@@ -671,7 +693,7 @@
       ]
     }
   },
- 
+
   "blogPage": {
     "title": "مدونتنا الصحية",
     "subtitle": "أخبار، نصائح، وشهادات حول الصحة والعافية",
@@ -739,8 +761,7 @@
         "slug": "importance-psychological-support-healing"
       }
     ]
-  }
-,
+  },
 
   "reviewsPage": {
     "title": "آراؤكم",
@@ -782,5 +803,3 @@
     }
   }
 }
-
-

@@ -1,14 +1,33 @@
-{
-   
+{"navigation": {
+
   "navigation": {
- "home": "Home",
-  "services": "Services",
-  "about": "About",
-  "contact": "Contact",
-  "info": "Information",
-  "blog": "Blog",
-  "reviews": "Reviews"
-  },
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "blog": "Blog",
+    "Information": "Information",
+    "subLinks": {
+      "services": [
+        { "title": "List of Services", "href": "services#services-list" },
+        { "title": "Pricing", "href": "services#pricing" },
+        { "title": "Equipment", "href": "services#equipment" }
+      ],
+      "about": [
+        { "title": "Our Mission", "href": "about#about-mission" },
+        { "title": "History", "href": "about#about-history" },
+        { "title": "Team", "href": "about#about-team" },
+        { "title": "Partners", "href": "about#about-partners" }
+      ],
+      "contact": [
+        { "title": "Contact Details", "href": "contact#contact-info" },
+        { "title": "Form", "href": "contact#contact-form" },
+        { "title": "FAQ", "href": "contact#contact-faq" },
+        { "title": "Appointment", "href": "contact#appointment-form" }
+      ]
+    }
+  }
+},
 
   "home": {
     "title": "Le Merle Medical Assistance",

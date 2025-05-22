@@ -15,7 +15,15 @@ export default async function Home({
 
   return (
     <div className="flex flex-col items-center">
-      <Hero dictionary={dictionary.home} lang={lang} />
+      <Hero
+        dictionary={dictionary.home}
+        lang={lang}
+        services={dictionary.services.services.map((service) => ({
+          title: service.title,
+          description: service.description.substring(0, 80) + "...",
+        }))}
+         dictionary1={dictionary.contact}
+      />
       <WhyChooseUs dictionary={dictionary.whyChooseUs} lang={lang} />
       <Vision dictionary={dictionary.vision} lang={lang} />
       <Services dictionary={dictionary.services} lang={lang} />

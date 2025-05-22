@@ -52,7 +52,7 @@ export default function BlogContent({ lang, dictionary }: BlogContentProps) {
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true }}
     transition={{ duration: 0.6 }}
-    className={`mb-16 text-center text-3xl font-bold text-foreground md:text-4xl ${isRtl ? "font-arabic" : ""}`}
+    className={`mb-16 text-center text-3xl font-bold text-foreground md:text-4xl  text-white dark:text-white ${isRtl ? "font-arabic" : ""}`}
     style={{ display: 'inline-block', position: 'relative' }}
   >
     {title}
@@ -66,7 +66,7 @@ export default function BlogContent({ lang, dictionary }: BlogContentProps) {
                   href={`/${lang}/blog/${post.slug}`}
                   className="group relative overflow-hidden rounded-xl border border-gold/20 bg-gray-800 p-6 shadow-lg transition-all duration-300 hover:border-gold/40 hover:shadow-gold/10 "
                 >
-                 <h2 className="text-xl font-semibold text-gray-400 dark:text-amber-300">{post.title}</h2>
+                 <h2 className="text-xl font-semibold text-gold dark:text-amber-300">{post.title}</h2>
                   <p className="text-gray-600 dark:text-gray-400">{post.excerpt}</p>
                   <span className="text-sm text-gray-500">{post.date}</span>
                 </Link>
