@@ -1,45 +1,52 @@
-import { NextResponse } from "next/server";
-import type { NextRequest } from "next/server";
-import { i18n } from "@/lib/i18n-config";
-import { match as matchLocale } from "@formatjs/intl-localematcher";
-import Negotiator from "negotiator";
-
-function getLocale(request: NextRequest): string {
-  const negotiatorHeaders: Record<string, string> = {};
-  request.headers.forEach((value, key) => (negotiatorHeaders[key] = value));
-  const languages = new Negotiator({ headers: negotiatorHeaders }).languages();
-  const locales: readonly string[] = i18n.locales; // Use readonly string[]
-  return matchLocale(languages, locales, i18n.defaultLocale);
-}
+import { NextResponse } from "next/server"
+import type { NextRequest } from "next/server"
 
 export function middleware(request: NextRequest) {
-  const pathname = request.nextUrl.pathname;
+  // Vérifier si l'utilisateur est connecté
+  const userSession = request.cookies.get("user-session")
 
-  // Skip static assets and Next.js internal paths
-  if (
-    pathname.startsWith("/_next/") ||
-    pathname.startsWith("/api/") ||
-    pathname.match(/\.(png|svg|jpg|jpeg|gif|ico|mp4)$/)
-  ) {
-    return NextResponse.next();
+  // Pages qui nécessitent une authentification
+  const protectedPaths = [
+    "/dashboard",
+    "/services",
+    "/equipment",
+    "/partners",
+    "/pricing",
+    "/blog",
+    "/testimonials",
+    "/team",
+    "/messages",
+    "/appointments",
+    "/admins",
+  ]
+
+  // Pages publiques (login, forgot-password, etc.)
+  const publicPaths = ["/login", "/forgot-password", "/"]
+
+  const { pathname } = request.nextUrl
+
+  // Si l'utilisateur essaie d'accéder à une page protégée sans être connecté
+  if (protectedPaths.some((path) => pathname.startsWith(path)) && !userSession) {
+    return NextResponse.redirect(new URL("/login", request.url))
   }
 
-  // Check if there is any supported locale in the pathname
-  const pathnameIsMissingLocale = i18n.locales.every(
-    (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
-  );
-
-  // Redirect if there is no locale
-  if (pathnameIsMissingLocale) {
-    const locale = getLocale(request);
-    return NextResponse.redirect(
-      new URL(`/${locale}${pathname.startsWith("/") ? "" : "/"}${pathname}`, request.url)
-    );
+  // Si l'utilisateur est connecté et essaie d'accéder à la page de login
+  if (userSession && (pathname === "/login" || pathname === "/")) {
+    return NextResponse.redirect(new URL("/dashboard", request.url))
   }
 
-  return NextResponse.next();
+  return NextResponse.next()
 }
 
 export const config = {
-  matcher: ["/((?!api|_next/static|_next/image|favicon.ico).*)"],
-};
+  matcher: [
+    /*
+     * Match all request paths except for the ones starting with:
+     * - api (API routes)
+     * - _next/static (static files)
+     * - _next/image (image optimization files)
+     * - favicon.ico (favicon file)
+     */
+    "/((?!api|_next/static|_next/image|favicon.ico).*)",
+  ],
+}

@@ -6,69 +6,76 @@
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
-
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
-
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 41 100% 50%;
     --primary-foreground: 210 40% 98%;
-
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
-
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
-
     --accent: 210 40% 96.1%;
     --accent-foreground: 222.2 47.4% 11.2%;
-
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
-
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 41 100% 50%;
+    --radius: 0.75rem;
 
-    --radius: 0.5rem;
+    /* Sidebar variables */
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 222.2 84% 4.9%;
+    --sidebar-primary: 41 100% 50%;
+    --sidebar-primary-foreground: 210 40% 98%;
+    --sidebar-accent: 41 100% 96%;
+    --sidebar-accent-foreground: 41 100% 30%;
+    --sidebar-border: 214.3 31.8% 91.4%;
+    --sidebar-ring: 41 100% 50%;
 
-    /* Custom colors */
-    --gold: 45 100% 50%; /* Updated to Golden Yellow #FFC000 */
-    --gold-foreground: 0 0% 10%;
-    --metallic-gray: 220 10% 40%;
-    --metallic-gray-foreground: 0 0% 100%;
+    /* Custom gradients */
+    --gradient-primary: linear-gradient(135deg, #ffc000 0%, #ffb000 100%);
+    --gradient-card: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+    --gradient-sidebar: linear-gradient(180deg, #ffffff 0%, #f1f5f9 100%);
   }
 
   .dark {
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
-
     --card: 222.2 84% 4.9%;
     --card-foreground: 210 40% 98%;
-
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
+    --primary: 41 100% 50%;
     --primary-foreground: 222.2 47.4% 11.2%;
-
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
-
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
-
     --accent: 217.2 32.6% 17.5%;
     --accent-foreground: 210 40% 98%;
-
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
-
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --ring: 41 100% 50%;
+
+    /* Sidebar variables */
+    --sidebar-background: 222.2 84% 4.9%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 41 100% 50%;
+    --sidebar-primary-foreground: 222.2 47.4% 11.2%;
+    --sidebar-accent: 41 70% 20%;
+    --sidebar-accent-foreground: 41 100% 50%;
+    --sidebar-border: 217.2 32.6% 17.5%;
+    --sidebar-ring: 41 100% 50%;
+
+    /* Custom gradients for dark mode */
+    --gradient-primary: linear-gradient(135deg, #ffc000 0%, #ffb000 100%);
+    --gradient-card: linear-gradient(145deg, #1e293b 0%, #334155 100%);
+    --gradient-sidebar: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
   }
 }
 
@@ -80,120 +87,67 @@
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
+}
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @apply tracking-tight;
+@layer components {
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+
+  .gradient-card {
+    background: var(--gradient-card);
+  }
+
+  .gradient-sidebar {
+    background: var(--gradient-sidebar);
+  }
+
+  .glass-effect {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .dark .glass-effect {
+    background: rgba(30, 41, 59, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .shadow-modern {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+
+  .shadow-modern-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+
+  .shadow-modern-xl {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
 }
 
-/* Custom styles */
-.text-gold {
-  color: #ffc000;
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
 }
 
-.bg-gold {
-  background-color: #ffc000;
+::-webkit-scrollbar-track {
+  background: transparent;
 }
 
-.border-gold {
-  border-color: #ffc000;
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
 }
 
-.hover\:bg-gold:hover {
-  background-color: #ffc000;
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
 }
 
-.hover\:text-gold:hover {
-  color: #ffc000;
+.dark ::-webkit-scrollbar-thumb {
+  background: #475569;
 }
 
-.focus\:border-gold:focus {
-  border-color: #ffc000;
-}
-
-.focus\:ring-gold:focus {
-  --tw-ring-color: #ffc000;
-}
-
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Glass effect */
-.glass {
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.dark .glass {
-  background: rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-/* RTL support for Arabic */
-[dir="rtl"] .space-x-8 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 1;
-}
-
-[dir="rtl"] .space-x-6 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 1;
-}
-
-[dir="rtl"] .space-x-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 1;
-}
-
-[dir="rtl"] .space-x-3 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 1;
-}
-
-[dir="rtl"] .space-x-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 1;
-}
-
-[dir="rtl"] .space-x-1 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 1;
-}
-
-/* Leaflet Map Styles */
-.leaflet-container {
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-}
-
-.leaflet-popup-content-wrapper {
-  border-radius: 0.5rem;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-}
-
-.leaflet-popup-content {
-  margin: 0.5rem;
-  min-width: 200px;
-}
-
-.leaflet-popup-tip {
-  background-color: white;
-}
-
-.dark .leaflet-popup-content-wrapper,
-.dark .leaflet-popup-tip {
-  background-color: #1f2937;
-  color: white;
-}
-
-.dark .leaflet-popup-content h3 {
-  color: #ffc000;
-}
-
-.dark .leaflet-popup-content p {
-  color: #d1d5db;
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
 }
